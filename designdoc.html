@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Iranian Atlas Project: Design with Limited Resources</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evSXbIWVMVNchCKTmhY1eU1e9VZjJCSsE4zlDWUhBZbNqU1VWKGQz2iYE0vkAG" crossorigin="anonymous">
+  <style>
+    /* Basic styles */
+    body {
+      font-family: Menlo, monospaced;
+      margin: 20px;
+    }
+    h1, h2 {
+      margin-bottom: 15px;
+    }
+    h2 {
+      font-size: 1.2em;
+    }
+    ul {
+      list-style: disc;
+      padding-left: 20px;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Iranian Atlas Project</a>
+    </div>
+  </nav>
+
+  <header class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4">Iranian Atlas Project: Design with Limited Resources</h1>
+      <p class="lead">A roadmap for creating a valuable resource with efficient use of time and personnel.</p>
+    </div>
+  </header>
+
+  <div class="container">
+    <section>
+      <h2>Project Overview</h2>
+      <p>This document outlines the design plan for the Iranian Atlas project, considering constraints on development time, AWS usage, and personnel. We'll prioritize user needs and focus on creating a valuable core experience within these limitations.</p>
+    </section>
+
+    <section>
+      <h2>Design Documents</h2>
+      <p>Here's a breakdown of key design documents that will guide development:</p>
+      <ul>
+        <li>**User Stories:** These narratives describe user goals and how the Iranian Atlas will help them achieve those goals.</li>
+        <li>**Feature Prioritization Matrix:** This matrix will rank features based on user impact, development effort, and alignment with project goals.</li>
+        <li>**High-Fidelity Wireframes:** These will showcase the core functionalities and user flows of the website.</li>
+        <li>**Content Strategy:** This plan will define how content will be generated (text, images, maps) and how LLMs will be integrated for content creation. It will also include editorial guidelines for ensuring accuracy.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Resource Allocation</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <h3>AWS Time (Several Hundred Hours):</h3>
+          <ul>
+            <li>**Focus:** Static website hosting on S3 for low cost and scalability.</li>
+            <li>**Consider:** CloudFront for CDN services (fast loading) and limited use of AWS Lambda for specific functionalities.</li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <h3>Developer/Researcher:</h3>
+          <ul>
+            <li>**Focus:** Building core functionalities, integrating LLMs for content generation.</li>
+            <li>**Research:** Identifying data sources for LLM training, fine-tuning prompts for accuracy.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="text-center">
+      <a href="#" class="btn btn-primary">Learn More About the Project</a>
+    </section>
+  </div>
+
+  <footer class="text-center py-3">
+    <p>&copy; 2024 Iranian Atlas Project</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="
+
+  </body>
+</html>
